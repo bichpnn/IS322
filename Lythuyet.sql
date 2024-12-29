@@ -1,13 +1,13 @@
 ﻿/* T-SQL - Structured Query Language: Ngôn ngữ truy vấn có cấu trúc SQL cho phép Tạo CSDL, Thao tác trên dữ liệu
 		(Lưu trữ dữ liệu, Sửa dữ liệu, Xóa dữ liệu) Đa số các RDBMS hiện nay sử dụng SQL (MS SQL Server – T- SQL, 
-		Microsoft Access, Oracle – PL/SQL, DB2, MySQL…) [DungNA29]
+		Microsoft Access, Oracle – PL/SQL, DB2, MySQL…)
 Có thể chia thành 4 nhóm lệnh SQL:
 	+ Nhóm truy vấn dữ liệu (DQL): gồm các lệnh truy vấn lựa chọn
 	(Select) để lấy thông tin nhưng không làm thay đổi dữ liệu trong các bảng
 	+ Nhóm định nghĩa dữ liệu (DDL): Gồm các lệnh tạo, thay đổi các bảng dữ liệu(Create, Drop, Alter, …)
 	+ Nhóm thao tác dữ liệu (DML): Gồm các lệnh làm thay đổi dữ liệu (Insert, Delete, Update,…) lưu trong các bảng
 	+ Nhóm điều khiển dữ liệu (DCL): Gồm các lệnh quản lý quyền truy nhập vào dữ liệu và các bảng (Grant, Revoke, …)
-SQL KHÔNG PHÂN BIỆT CHỮA HOA CHỮ THƯỜNG. [DungNA29]
+SQL KHÔNG PHÂN BIỆT CHỮA HOA CHỮ THƯỜNG.
 NGUYÊN TẮC KHI ĐẶT TÊN
 	+ Kí tự đầu tiên của một định danh phải là một kí tự chữ cái theo chuẩn Unicode 2.0, hoặc dấu (_),
 	hoặc dấu @ (tên biến), hoặc # (bảng tạm).
@@ -15,12 +15,11 @@ NGUYÊN TẮC KHI ĐẶT TÊN
     + Không chứa các kí tự đặt biệt +, -, *, /, !, ~, | ....
     + Ví dụ tên hợp lệ: Nhan_vien, _PhongBan
     + Tên không hợp lệ: [%], SELECT
-    [DungNA29]
 	Ctrl + E = Exxcute câu lệnh khi bôi đen vùng lệnh.
 	*/
 
 -- Câu lệnh 1.1: COMMENT TRONG SQL --	
--- (2 dấu gạch liên tiếp): Comment trên một dòng và chỉ có tác dụng trên 1 dòng DungNA29
+-- (2 dấu gạch liên tiếp): Comment trên một dòng và chỉ có tác dụng trên 1 dòng
 /*..Comment trên một khối.. */
 
 /*
